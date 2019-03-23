@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="../assets/styles/kid.css">
+<script src="../assets/js/kid.js"></script>
+
+<header>
+  <div class="nav1">
+    <img src="../assets/images/logo_transparent.png" alt="">
+    <h1>Blueprinting the Future</h1>
+  </div>
+  <nav>
+
+    <div class="atag"><a href="/members">Back</a></div>
+    <div class="atag"><a href="/logout">Logout</a></div>
+  </nav>
+
+</header>
+
+<div class="container">
+  <h1 id="kidName" class="text-center">Kid Page</h1>
+  <div class="tasks">
+    {{#each task}}
+    <div class="each">
+      <h2 class="taskName">Task: {{name}}</h2>
+      <div class="flexStats">
+        <h4>Total times done: {{progress}}</h4>
+        <h4>Total times to do: {{iterations}}</h4>
+      </div>
+
+      <div id="statusBar{{id}}" class="statusBar" data-id="{{KidId}}">
+        <div id="progressBar{{id}}" class="progressBar" data-progress="{{progress}}" data-iterations="{{iterations}}">
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+
+</div>

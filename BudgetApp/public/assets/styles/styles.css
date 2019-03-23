@@ -1,0 +1,138 @@
+#jumbo{
+   background-color:rgb(0, 127, 186);
+   height: 250px;
+    
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: rgb(0, 127, 186);
+    font-size: 25px;
+}
+
+#p1{
+    font-size: 15px;
+
+}
+#footer{
+    background-color: white;
+}
+
+/* .ImageBorder
+{   border: 3px;
+  border-color: rgb(0, 127, 186);
+} */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+#middle{
+    align-content: middle;
+}
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+#mid-card{
+  align-content: right;
+}
+.card{
+    border-top-color: rgb(0, 127, 186);
+    border-top-width: 5px;
+    /* border-left-color: #72FD73;
+    border-left-width: 0.5px;
+    border-right-color: #FC698C;
+    border-right-width: 0.5px;
+    border-bottom-color: #FF9B46;
+    border-bottom-width: 0.5px; */
+}
+.display-4{
+
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.lead{
+  
+    text-align: center;
+    color: white;
+    font-size: 17.5px;
+}
+#topPic{
+    height: 550px;
+    width: 550px;
+  
+}
+
+body{
+    background-color: #E8E8E8;
+}
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: #000066;
+    background-color: whitesmoke !important;
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #000066;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.rights{
+    color:#000066;
+}
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font:'Dosis',sans-serif;
+    text-transform: uppercase;
+    color: #000066;
+}
+.social-container .col {
+    border: 1px solid #000066;
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 'Dosis',sans-serif;
+    color: #000066;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+.col-md-4{
+  padding-top: 10px;
+}

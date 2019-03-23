@@ -1,0 +1,179 @@
+*{
+  box-sizing: border-box;
+}
+
+.boxes{
+  margin-top: 1em;
+  width: 100%;
+  height: 100px;
+  background-color:white;
+  display: flex;
+
+}
+
+.box{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: peru;
+  border-right: 2px black solid;
+}
+
+.inputAnyForm{
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  z-index: 3;
+  background-color: #222;
+  position: absolute;
+  top: 0;
+}
+
+.actualForm{
+  padding: 10px 20px;
+  width: 60%;
+  background-color: rgb(00,00,66);
+  color: whitesmoke;
+  position: absolute;
+  top: 140px;
+  left: calc(50vw - 30%);
+  z-index: 4;
+  border: 3px whitesmoke solid;
+}
+
+.formBtn{
+  margin-top: 1em;
+}
+
+.myForm h3{
+  margin-bottom: .5em;
+}
+
+.myForm input[type=text] {
+  width: 70%;
+  color: black;
+  padding: 5px;
+}
+
+.myForm label{
+  font-size: 20px;
+}
+
+.startFlex{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 3px black solid;
+}
+
+.kidName{
+  display: flex;
+  align-items: flex-end;
+  text-transform: capitalize;
+}
+
+.third{
+  width: 25%;
+}
+
+.btn{
+  width: fit-content;
+}
+
+.kidBox{
+  margin: 1em auto 0 auto;
+  background-color: whitesmoke;
+  padding: 10px;
+  border: 1px black solid;
+}
+
+.taskBox{
+  margin-top: 1em;
+}
+
+.taskName{
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.taskDiv h3{
+  font-size: 16px;
+}
+
+.taskDiv h4{
+  font-size: 12px;
+}
+
+.taskFlex{
+  display: flex;
+  width: 45%;
+  align-items: center;
+}
+
+.taskDelBtn{
+  background-color: whitesmoke;
+  color: red;
+}
+
+.taskDiv{
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  border-bottom: 1px black solid;
+  min-height: 40px;
+}
+
+.taskDiv:nth-last-child(1){
+  border-bottom: none;
+}
+
+.taskThing{
+  width: 25%;
+}
+
+.proArea{
+  display: flex;
+  width: 35%;
+  align-items: center;
+}
+
+.proBtn{
+  background-color: whitesmoke;
+  color: green;
+}
+
+.addKidArea{
+  display: flex;
+  margin-top: 1em;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  background-color: whitesmoke;
+  border: 1px black solid;
+}
+
+.addKid{
+  margin-right: 5px;
+}
+
+#kidNameAdd{
+  width: 60%;
+  font-size: 20px;
+}
+
+.myForm{
+  display: none;
+}
+
+.closeBtn{
+  position: absolute;
+  top: 0;
+  right: 5px;
+  padding: 0;
+  background-color: rgb(00,00,66);
+  color: whitesmoke;
+  width: fit-content;
+  font-size: 20px;
+}
